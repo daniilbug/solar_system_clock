@@ -1,5 +1,6 @@
 # Solar System Clock
    The application has two modes: solar and earth. Modes replace each other after 5 seconds.
+   
   <img src='solar_system_clock/solar_system_clock.gif' width='350'>
 
 ## Solar mode
