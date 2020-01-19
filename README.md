@@ -1,21 +1,16 @@
-<<<<<<< HEAD
-# rings_clock
+# Solar System Clock
+   The application has two modes: solar and earth. Modes replace each other after 5 seconds.
+  <img src='solar_system_clock/solar_system_clock.gif' width='350'>
 
-A beautiful clock app.
+## Solar mode
+  <img src='solar_system_clock/sun.jpg' width='350'>
+   Solar mode is an analog clock, but hands are planets which are rotates around the sun.
 
-## Getting Started
+## Earth mode
+  <img src='solar_system_clock/earth_light.jpg' width='350'> <img src='solar_system_clock/earth_dark.jpg' width='350'>
+   
+   Earth mode is a digital clock, but it contains some additional information, such as weather or temperature.
+   For each weather condition in the clock model there is an icon.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# solar_system_clock
-A beautiful solar system clock for flutter clock challenge.
->>>>>>> ff4e086ca4cdd5776af72930749b9aa065a8dedf
+## Background
+  In the background you can see falling stars or supernova explosion.
