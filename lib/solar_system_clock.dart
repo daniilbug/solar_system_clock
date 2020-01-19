@@ -90,7 +90,7 @@ class _SolarSystemClockState extends State<SolarSystemClock> with TickerProvider
 
   void _initAnimations() {
     _controller = AnimationController(duration: Duration(milliseconds: 400), vsync: this);
-    _animatedCirclesRadius = Tween<double>(begin: 8.0, end: 0.0).animate(_controller);
+    _animatedCirclesRadius = Tween<double>(begin: 8, end: 0.0).animate(_controller);
     _animatedDistanceBetween = Tween<double>(begin: 16.0, end: 0.0).animate(_controller);
     _animatedGradient = ColorTween(begin: Colors.orangeAccent, end: Colors.grey).animate(_controller);
     _animatedGradientRadius = Tween<double>(begin: 0.8, end: 0.5).animate(_controller);
@@ -158,7 +158,7 @@ class _SolarSystemClockState extends State<SolarSystemClock> with TickerProvider
   Widget _detailInformation(double radius) {
     final timeFormat = widget.model.is24HourFormat ? DateFormat("HH:mm") : DateFormat("hh:mm");
     return  DefaultTextStyle(
-      style: TextStyle(fontSize: radius / 6, fontFamily: "Space"),
+      style: TextStyle(fontSize: radius / 6),
       child: Container(
         margin: EdgeInsets.only(top: radius / 12),
         child: Column(
