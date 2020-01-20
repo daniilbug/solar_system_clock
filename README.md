@@ -5,7 +5,7 @@
 
 ## Solar mode
   <img src='solar_system_clock/sun.jpg' width='350'>
-   Solar mode is an analog clock, but hands are planets which are rotates around the sun.
+   Solar mode is an analog clock, but hands are planets which rotate around the sun.
 
 ## Earth mode
   <img src='solar_system_clock/earth_light.jpg' width='350'> <img src='solar_system_clock/earth_dark.jpg' width='350'>
